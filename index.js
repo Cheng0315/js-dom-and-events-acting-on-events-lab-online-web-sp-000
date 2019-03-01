@@ -19,4 +19,10 @@ function addNewLiOnClick() {
   })
 }
 
+function clearEmployeeListOnLinkClick() {
+  document.querySelector('input[submit]').addEventListener('click', function(event){
+    document.querySelector('.employee-list').remove
+  })
+}
+
 preventRefreshOnSubmit()
