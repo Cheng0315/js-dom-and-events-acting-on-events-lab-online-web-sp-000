@@ -4,8 +4,12 @@ function preventRefreshOnSubmit(){
     })
 }
 
-preventRefreshOnSubmit()
-
 function retrieveEmployeeInformation() {
   return document.querySelector('input').value;
 }
+
+function addNewElementAsLi() {
+  $('.employee-list').append(retrieveEmployeeInformation())
+}
+
+preventRefreshOnSubmit()
