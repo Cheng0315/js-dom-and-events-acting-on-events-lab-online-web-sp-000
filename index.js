@@ -14,7 +14,8 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   document.body.addEventListener('click', function(event){
-    return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
+    document.querySelector('.employee-list').append(retrieveEmployeeInformation())
+    document.querySelector('input').value = '';
   })
 }
 
