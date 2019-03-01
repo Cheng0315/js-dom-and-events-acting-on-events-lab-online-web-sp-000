@@ -9,7 +9,7 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  return $('.employee-list').append(retrieveEmployeeInformation())
+  return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
 }
 
 preventRefreshOnSubmit()
