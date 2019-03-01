@@ -9,3 +9,5 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation() {
   return $("h1")
 }
+
+retrieveEmployeeInformation()
