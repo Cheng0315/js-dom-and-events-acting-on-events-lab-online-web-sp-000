@@ -13,7 +13,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  document.querySelector('ul').addEventListener('click', function(event){
+  document.body.addEventListener('click', function(event){
     return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
   })
 }
