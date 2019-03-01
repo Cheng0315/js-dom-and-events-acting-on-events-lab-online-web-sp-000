@@ -13,7 +13,9 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-
+  document.querySelector('ul').addEventListener('submit', function(event){
+    return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
+  })
 }
 
 preventRefreshOnSubmit()
