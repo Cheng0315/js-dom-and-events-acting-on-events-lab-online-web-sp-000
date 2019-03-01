@@ -8,6 +8,6 @@ preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
   document.querySelector('form').addEventListener('submit', function(event){
-    return $('.form input')
+    return $('form')
   })
 }
